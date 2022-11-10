@@ -1,0 +1,220 @@
+body{
+    background: #947979;
+    /* height: 1500px; */
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    width: auto;
+    height: 3rem;
+    text-align: center;
+    color: bisque;
+    background: linear-gradient(to right, rgb(177, 177, 243),rgb(194, 236, 125));
+    border-bottom: 0.5rem solid rgb(135, 135, 145);
+    border-radius: 0% 0% 0.8rem 0.8rem;
+}   
+footer{
+    background-color: #353535;
+    padding: 12rem 0;
+    text-align: center;
+    position: relative;
+    margin-top: 10rem;
+    color: #dd5252;
+}
+.container{
+    margin:  0 auto;
+    padding: 0 20px 0 20px;
+    max-width: 900px;
+}
+footer{
+    height: 2rem;
+    background-color: #353535;
+    padding: 2rem 0;
+    text-align: center;
+    color: #868686;
+    font-size: 0.9rem;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+}
+footer li a{
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover{
+    color: white;
+}
+/** : Section VertacalLeft...................................................................*/
+.VerticalLeft{
+    position: relative;
+    height: auto;
+    background: rgb(201, 201, 255);
+    width: 9rem;
+    margin: 1rem;
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    border-bottom: 00.5rem solid rgb(135, 135, 145);
+    border-right: 00.5rem solid rgb(135, 135, 145);
+    display: block;
+    padding: 0.1rem;
+}
+.info{
+    border: 00.1rem solid rgb(135, 135, 145);
+    border-radius: 0.8rem;
+    position: relative;
+    margin: 1rem;
+    padding: 0.2rem;
+    width: auto;
+    cursor: pointer;
+    text-align: top;
+    font-family: monospace;
+    background: rgb(255, 255, 255);
+    height: 5rem;
+}
+.info p{
+    position: relative;
+    background-color: coral;
+    border-radius: 0rem 0rem 0.8rem 0rem;
+    border-bottom: 00.1rem solid rgb(188, 188, 255);
+    border-right: 00.1rem solid rgb(188, 188, 255);
+}
+.info:hover{
+    background-color: rgb(187, 187, 187);
+    transition: 0.5s;
+}
+/** : Section Main...................................................................*/
+.Main{
+    position: relative;
+    /* left: 20%; */
+    /* top: 10%; */
+    height: 40rem;
+    background: transparent;
+    width: auto;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    /* border-radius: 0rem 0rem 0.8rem 0.8rem;
+    border-bottom: 00.5rem solid rgb(135, 135, 145);
+    border-right: 00.5rem solid rgb(135, 135, 145); */
+    padding: 0.1rem;
+    display: block;
+}
+.info2{
+    border-bottom: 00.5rem solid rgb(135, 135, 145);
+    border-right: 00.5rem solid rgb(135, 135, 145);
+    background: white;
+    position: relative;
+    width: auto;
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-flex;
+}
+.miniVertical{
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    border-bottom: 00.2rem solid rgb(135, 135, 145);
+    border-right: 00.2rem solid rgb(135, 135, 145);
+    position: relative;
+    /* margin-left: 80%; */
+    /* margin-bottom: 10%; */
+    height: auto;
+    /* text-align: left; */
+    font-family: monospace;
+    font-size: 0.8rem;
+    width: auto;
+    background: transparent;
+    color: black;
+}
+ul{
+    /* text-align: left; */
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+}
+li.chap{
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    border-bottom: 00.2rem solid rgb(135, 135, 145);
+    border-right: 00.2rem solid rgb(135, 135, 145);
+    margin-bottom: 0.5rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+li.chap:hover{
+    background-color: rgb(187, 187, 187);
+    transition: .5s;
+}
+.boug{
+    width: auto;
+    height: auto;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    border-bottom: 00.2rem solid rgb(135, 135, 145);
+    border-right: 00.2rem solid rgb(135, 135, 145);
+    background-color: white;
+}
+.boug:hover{
+    background-color: rgb(255, 175, 175);
+    transition: 0.5s;
+}
+.info3{
+    border-bottom: 00.5rem solid rgb(135, 135, 145);
+    border-right: 00.5rem solid rgb(135, 135, 145);
+    background: rgb(182, 146, 146);
+    position: relative;
+    width: auto;
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+}
+.a{
+    background: black;
+    width: 45rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.b{
+    text-align: center;
+    background: white;
+    border: 0.16rem solid beige;
+    height: auto;
+    width: 48rem;
+}
+
+/*! RESPONSIVE FOR PHONE ............................................*/
+
+@media (max-width:720px) {
+    .info2{
+        display: block;
+    }
+    .VerticalLeft{
+        width: 19rem;
+    }
+    .a{
+        width: 14rem;
+    }
+    .b{
+        width: 17rem;
+    }   
+    footer{
+        background-color: #353535;
+        padding: 3rem 0;
+        text-align: center;
+        position: relative;
+        margin-top: 45rem;
+        color: #dd5252;
+    }
+}

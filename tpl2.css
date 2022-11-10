@@ -1,0 +1,307 @@
+body{
+    background-color: #43506c;
+}
+header{
+    position: relative;
+    width: auto;
+    height: 3rem;
+    text-align: center;
+    color: #43506c;
+    background: linear-gradient(to right, #3d619b,#ef4b4c);
+    /* border-bottom: 0.5rem solid rgb(135, 135, 145); */
+    border-radius: 0% 0% 0.8rem 0.8rem;
+}   
+footer{
+    
+    background: linear-gradient(to right, #3d619b,#ef4b4c);
+    padding: 12rem 0;
+    padding-top: 1rem   ;
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    color: #e9e9eb;
+}
+.container{
+    margin:  0 auto;
+    padding: 0 20px 0 20px;
+    max-width: 900px;
+}
+footer{
+    height: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+    /* color: #868686; */
+    font-size: 0.9rem;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+}
+footer li a{
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #353535;
+}
+footer li a:hover{
+    color: #e9e9eb;
+}
+/*!Section................................................................... */
+.main{
+    position: relative;
+    width: auto;
+    border-radius: 2rem;
+    height: auto;
+    display: inline-flex;
+    background-color: #3d619b;
+    margin: 5rem;
+    padding: 1rem;
+}
+/*!Left................................................................  */
+.objets{
+    position: relative;
+    margin-left: 1rem;
+    padding: 2rem;
+    width: auto;
+    max-height: 64.3rem;
+    background-color: #353535;   
+    display: block;
+    border-radius: 3rem;
+}
+.list{
+    cursor: pointer;
+    position: relative;
+    margin-top: 0rem;
+    width: auto;
+    height: auto;
+    min-width: 7rem;
+    min-height: 18rem;
+    text-align: top;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: #e9e9eb;
+    text-align: center;
+}
+.list:hover{
+    transition: 0.5s;
+    background-color: #7e7e7e;
+}
+p.obj{
+    background-color: #ef4b4c;
+    border-radius: 2rem 2rem 0rem 0rem;
+    color: #e9e9eb;
+}
+/*!Center................................................................  */
+.a{
+    position: relative;
+    background: #e9e9eb;
+    width: 45rem;
+    padding: 1rem;
+    border-radius: 2rem 2rem 0% 0%;
+    margin: 1rem;
+    margin-top: 0rem;
+}
+p.text{
+    /* border-radius: 0% 0% 2rem 2rem; */
+    margin-left: 2rem;
+    font-family: monospace;
+    font-size: 1.6rem;
+    background-color: #e9e9eb;
+    color: #3d619b;
+    max-width: 45rem;
+}
+.chapp{
+    border: transparent 0.32rem solid;
+    background-color: transparent;
+    color: #ef4b4c;
+    max-width: 47rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    height: auto;
+    text-align: right;
+    position: relative;
+    display: inline-flex;
+}
+.chapp:hover{
+    transition: 0.5s;
+    background-color: #7e7e7e;
+    color: #e9e9eb;
+}
+.chaplook{
+    display: block;
+    position: relative;
+    width: auto;
+    margin-left: 1rem;
+    max-width: 47rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+    height: auto;
+    background-color: #e9e9eb;
+    /* padding: 1rem; */
+    /* margin: 1rem; */
+}
+.chaplook img{
+    max-width: 9rem;
+    margin: 0.32rem;
+    cursor: pointer;
+}
+.nav{
+    margin: 2rem;
+    margin-left: 14rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    max-width: 20rem;
+    min-height: 2rem;
+    display: inline-flex;
+    background-color: #43506c;
+}
+.nav button{
+    cursor: pointer;
+    border: none;
+    height: auto;
+    min-height: 3rem;
+    min-width: 8rem;
+    margin: 1rem;
+    background-color: #e9e9eb;
+    font-family: monospace;
+    color: #353535;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+.nav button:hover{
+    transition: 0.5s;
+    background-color: #3d619b;
+    color: #e9e9eb;
+}
+/*!Right................................................................  */
+.last{
+    position: relative;
+    max-height: 68.5rem;
+    max-width: 10rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    background-color: #353535;
+    /* padding: 2rem; */
+}
+.one{
+    background-color: #e9e9eb;
+    position: relative;
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: auto;
+    max-width: 20rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+.two{
+    background-color: #e9e9eb;
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    min-height: 40rem;
+    max-width: 20rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    width: 5rem;
+}
+ul li a.are{
+    color: #e9e9eb;
+    background-color: #ef4b4c;
+    font-family: monospace;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0rem 0rem 0.2rem 0.2rem;
+}
+ul li a.are:hover{
+    transition: 0.5s;
+    background-color: #e9e9eb;
+    color: #ef4b4c;
+}
+b{
+    position: relative;
+    margin-top: 1rem;
+    color: #353535;
+    padding-top: 1rem;
+}
+
+/*! RESPONSIVE FOR PHONE ............................................*/
+
+@media (max-width:720px) {
+    footer{
+        background-color: #353535;
+        padding: 3rem 0;
+        text-align: center;
+        position: relative;
+        margin-top: 2rem;
+        color: #ffffff;
+    }
+    .a{
+        margin-top: 2rem;
+        width: 20rem;
+        padding: 1rem;
+    }
+    .main{
+        display: block;
+        margin: 2rem;
+    }
+ 
+ul li{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    width: 10rem;
+}
+    .list{
+        min-height: 5rem;
+        min-width: 7rem;
+    }
+    p.text{
+        margin-left: 0.5rem;
+        font-size: 1rem;
+    }
+    .chaplook{
+        max-width: 25rem;
+    }
+    .chapp{
+        max-width: 25rem;
+    }
+    .nav{
+        margin-left: 1.5rem;
+    }
+    .last{
+        margin-left: 3rem;
+        min-width: 20rem;
+    }
+    .one{
+        margin: 3rem;
+    }
+    .two{
+        min-height: 2rem;
+    }
+    ul li a.are{
+        color: #e9e9eb;
+        background-color: #ef4b4c;
+        font-family: monospace;
+        font-size: 0.8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.5rem;
+        margin-top: 2rem;
+        border-radius: 0rem 0rem 0.2rem 0.2rem;
+    }
+}
